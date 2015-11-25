@@ -1,4 +1,4 @@
-* FW bisimulation class
+* classes for summary construction
 
 edu.toronto.cs.vinosem.hadoop220.BisimFWMPCInted - FW bisimulation using inted input. This is the class that is used to compare in experiments with GraphChi (since the research literature only deals with FW summaries). The next few classes construct FWBW summaries which can be compared to the GraphChi-based implementation.
 edu.toronto.cs.vinosem.hadoop220.BisimFWBWMPCInted - FWBW bisimulation using inted input
