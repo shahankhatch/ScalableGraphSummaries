@@ -29,8 +29,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 /**
- * Attempt at FW bisim. Not complete. Does not work. Needs to consider 'node'
- * stream entries prior to 'graph' and 'template' streams in reduce stream
+ * FW bisimulation verified against GraphChi versions. Uses key order to ensure that node blockid is pulled before its edges
  */
 public class BisimFWMPCInted {
 	// init - a map-only job generates 2 statements for each input stmt, spo and s-po

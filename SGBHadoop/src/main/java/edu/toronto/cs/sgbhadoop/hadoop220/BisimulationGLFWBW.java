@@ -30,7 +30,6 @@ import edu.toronto.cs.sgbhadoop.sortedpackage.ConvertNtToInt;
 import edu.toronto.cs.sgbhadoop.util.Timer;
 
 /**
- * This class works.
  *
  */
 public class BisimulationGLFWBW {

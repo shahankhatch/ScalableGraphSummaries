@@ -28,7 +28,6 @@ import edu.toronto.cs.sgbhadoop.util.Timer;
 
 /**
  * Map-focused Hadoop job for computing FWBW, reduce only sorts (in parallel if avail). Flips stmts back and forth and aggregates over a stream of key, emitting the 'join' afterwards.
- *Seems to work.
  */
 public class BisimFWBW {
 	public static final boolean flagDebug = false;

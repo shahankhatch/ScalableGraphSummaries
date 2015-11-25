@@ -24,7 +24,7 @@ import edu.toronto.cs.sgbhadoop.util.GeneralUtil;
 import edu.toronto.cs.sgbhadoop.util.Timer;
 
 /**
- * Seems to work
+ *
  */
 public class BisimFWBWMPCInted {
 	// init - a map-only job generates 2 statements for each input stmt, spo and s-po

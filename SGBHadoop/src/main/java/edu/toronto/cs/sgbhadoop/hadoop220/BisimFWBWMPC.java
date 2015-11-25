@@ -26,8 +26,8 @@ import edu.toronto.cs.sgbhadoop.util.GeneralUtil;
 import edu.toronto.cs.sgbhadoop.util.Timer;
 
 /**
- * This class works.
- *
+ * a map-only job generates 2 statements for each input stmt, spo and s-po
+ * map emits input stmt as is, reduce processes fwbw hash on first read, generates flipped stmts on second read
  */
 public class BisimFWBWMPC {
 	// init - a map-only job generates 2 statements for each input stmt, spo and s-po
